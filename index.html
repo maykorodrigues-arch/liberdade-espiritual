@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Fim do "Checklist Espiritual": O Que Realmente Contamina Você?</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .prose h2 {
+            font-size: 1.75em;
+            margin-top: 2em;
+            margin-bottom: 1em;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 320px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 384px;
+            }
+        }
+        .flow-arrow::after {
+            content: '▼';
+            font-size: 2rem;
+            color: #FF5A5F;
+            margin: 0.5rem 0;
+        }
+        #geminiModal.hidden {
+            display: none;
+        }
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border-left-color: #0B3954;
+            animation: spin 1s ease infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-300">
+
+    <main class="container mx-auto max-w-4xl px-4 py-8 md:py-16">
+        <article class="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 sm:p-8 md:p-12">
+            
+            <!-- Cabeçalho do Artigo Otimizado -->
+            <header class="mb-8 border-b dark:border-gray-700 pb-6">
+                 <p class="text-sm font-semibold text-blue-600 dark:text-blue-400 uppercase mb-2">Autenticidade • Liberdade Espiritual</p>
+                <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 dark:text-white mb-2 leading-tight">
+                    O Fim do "Checklist Espiritual": Jesus Revela o Que Realmente Contamina Sua Alma
+                </h1>
+                <p class="text-lg text-gray-600 dark:text-gray-400 mt-4">
+                    Cansado de tentar ser o "cristão perfeito"? Você não está sozinho. Descubra a verdade libertadora que troca o peso da performance religiosa pela pureza que vem de dentro.
+                </p>
+            </header>
+
+            <!-- Corpo do Artigo Otimizado -->
+            <div class="prose prose-lg dark:prose-invert max-w-none leading-relaxed">
+                <p>
+                    Você já se sentiu exausto? Não um cansaço físico, mas uma fadiga na alma. Aquele sentimento de que, por mais que você tente, seu "checklist espiritual" nunca está completo. Você ora, lê a Bíblia, vai à igreja, evita certas coisas... mas a paz parece distante e o sentimento de "não ser bom o suficiente" é um companheiro constante. Esse esgotamento espiritual é uma epidemia silenciosa, e sua raiz pode estar em um engano fundamental que Jesus veio expor.
+                </p>
+
+                <p>
+                    A cena era comum: Jesus e Seus discípulos foram confrontados por líderes religiosos. O problema? Eles comeram sem lavar as mãos de um jeito cerimonial específico. Para os fariseus, isso era um grande erro, uma quebra da "tradição dos anciãos". Mas Jesus não viu um erro ritual. Ele viu um sintoma de uma doença muito mais profunda: a tendência humana de focar no exterior e ignorar o que está acontecendo no interior.
+                </p>
+
+                <h2>Quando a Tradição Vira uma Distração Perigosa</h2>
+                
+                <p>
+                    O Rei Jesus não era contra a Lei de Deus; Ele era a favor dela! O que Ele confrontou foi como as tradições humanas podem se tornar mais importantes que os próprios mandamentos divinos. Ele afirmou que a obsessão com regras externas pode nos levar a ignorar o que Deus realmente valoriza: justiça, misericórdia, fidelidade e, acima de tudo, um coração voltado para Ele.
+                </p>
+
+                <blockquote class="border-l-4 border-blue-500 pl-4 py-2 my-6 bg-gray-50 dark:bg-gray-700/50">
+                    <p class="font-semibold text-xl italic">“Não há nada fora do homem que, entrando nele, o possa contaminar; mas o que <span class="font-semibold text-blue-500">sai</span> do homem é o que o contamina.”</p>
+                     <cite class="text-sm not-italic text-gray-600 dark:text-gray-400 block mt-2">- Marcos 7:15</cite>
+                </blockquote>
+            </div>
+
+            <!-- Seção de Termos Gregos (Nova) -->
+            <div class="my-12 p-6 rounded-2xl bg-gray-50 dark:bg-gray-800 border dark:border-gray-700">
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Fundações Lexicais: Termos Gregos Chave</h3>
+                <p class="text-gray-600 dark:text-gray-400 mb-6">O argumento de Jesus depende do significado de algumas palavras cruciais, deslocando o foco do físico para o moral.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
+                    <div class="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-sm">
+                        <p class="text-lg font-bold text-blue-600 dark:text-blue-400">εἰσερχόμενον</p>
+                        <p class="text-gray-700 dark:text-gray-300 text-sm">(eiserchomenon)</p>
+                        <hr class="my-2 border-gray-200 dark:border-gray-600">
+                        <p class="font-semibold">O que Entra</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-sm">
+                        <p class="text-lg font-bold text-red-600 dark:text-red-400">ἐκπορευόμενον</p>
+                        <p class="text-gray-700 dark:text-gray-300 text-sm">(ekporeuomenon)</p>
+                        <hr class="my-2 border-gray-200 dark:border-gray-600">
+                        <p class="font-semibold">O que Sai</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-sm">
+                        <p class="text-lg font-bold text-blue-600 dark:text-blue-400">κοινόω</p>
+                        <p class="text-gray-700 dark:text-gray-300 text-sm">(koinoō)</p>
+                         <hr class="my-2 border-gray-200 dark:border-gray-600">
+                        <p class="font-semibold">Contaminar</p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-700 p-4 rounded-lg shadow-sm">
+                        <p class="text-lg font-bold text-red-600 dark:text-red-400">καρδία</p>
+                        <p class="text-gray-700 dark:text-gray-300 text-sm">(kardia)</p>
+                         <hr class="my-2 border-gray-200 dark:border-gray-600">
+                        <p class="font-semibold">O Coração</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prose prose-lg dark:prose-invert max-w-none leading-relaxed">
+                <h2>O Diagnóstico do Rei: Um Check-up do Coração</h2>
+                <p>
+                    Jesus explicou que a verdadeira contaminação é moral e espiritual, e ela nasce no nosso centro de comando: o coração. Ele então lista o que realmente nos "suja" diante de Deus, mudando o foco da pureza externa para a interna.
+                </p>
+            </div>
+            
+            <!-- Seção de Gráficos (Nova) -->
+            <div class="my-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border dark:border-gray-700">
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">A Visão Farisaica: Contaminação Externa</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">O foco estava em evitar fontes externas de impureza, como alimentos e contatos.</p>
+                    <div class="chart-container">
+                        <canvas id="externalPurityChart"></canvas>
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border dark:border-gray-700">
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">O Ensino de Jesus: Contaminação Interna</h3>
+                    <p class="text-gray-600 dark:text-gray-400 mb-4">Jesus reorienta o conceito, argumentando que a corrupção vem do coração.</p>
+                    <div class="chart-container">
+                        <canvas id="internalVicesChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fluxo da Contaminação (Novo) -->
+            <div class="my-12 p-6 rounded-2xl bg-gray-50 dark:bg-gray-800 border dark:border-gray-700">
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4 text-center">O Fluxo da Verdadeira Contaminação</h3>
+                <div class="flex flex-col items-center text-center text-gray-900 dark:text-white">
+                    <div class="bg-red-200 dark:bg-red-900/50 p-4 rounded-full shadow-lg w-48 border border-red-300 dark:border-red-700">
+                        <p class="text-xl font-bold">O CORAÇÃO (καρδία)</p>
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="bg-yellow-100 dark:bg-yellow-900/50 p-4 rounded-lg shadow-md w-64 border border-yellow-200 dark:border-yellow-700">
+                        <p class="text-lg font-bold">Maus Pensamentos</p>
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="bg-blue-100 dark:bg-blue-900/50 p-6 rounded-lg shadow-md w-full max-w-lg border border-blue-200 dark:border-blue-700">
+                        <p class="text-lg font-bold mb-2">Ações e Palavras Corruptas</p>
+                        <p class="text-sm">Imoralidade, roubos, homicídios, adultérios, cobiças, etc.</p>
+                    </div>
+                    <div class="flow-arrow"></div>
+                    <div class="bg-gray-600 dark:bg-gray-900 text-white p-4 rounded-full shadow-lg w-48 border border-gray-500">
+                        <p class="text-xl font-bold">CONTAMINAÇÃO</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seção de Aplicação Prática -->
+            <div class="mt-12 p-6 rounded-2xl bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800">
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Trazendo o Reino para a sua Semana: 3 Passos para um Coração Limpo</h3>
+                <ol class="list-decimal pl-6 space-y-3 text-gray-800 dark:text-gray-300">
+                   <li><strong>Faça um Inventário Honesto:</strong> Reserve 10 minutos hoje. Peça ao Espírito Santo para te mostrar o que tem "saído" do seu coração ultimamente — em palavras, atitudes, pensamentos. Anote sem se julgar, apenas observe.</li>
+                   <li><strong>Confesse e Entregue:</strong> A verdadeira pureza não vem do esforço, mas da troca. Entregue o que você descobriu a Jesus em confissão. Lembre-se que o sangue dEle nos purifica de TODO pecado (1 João 1:7). Troque seu coração contaminado pelo coração puro dEle.</li>
+                   <li><strong>Plante Novas Sementes:</strong> Pureza não é só tirar o mal, é cultivar o bem. Escolha um fruto do Espírito (amor, alegria, paz, etc.) para focar nesta semana. Peça a Deus para cultivá-lo em você e procure ativamente oportunidades para praticá-lo.</li>
+                </ol>
+            </div>
+            
+            <!-- Seção Interativa com IA (Nova) -->
+            <div class="md:col-span-2 bg-[#0B3954] text-white rounded-lg shadow-2xl p-8 text-center my-12">
+                <h3 class="text-2xl font-bold text-[#BFD7EA] mb-4">Aprofunde Seu Estudo com IA</h3>
+                <div class="bg-gray-900 bg-opacity-50 p-4 rounded-lg mb-6 max-w-xl mx-auto">
+                    <div class="flex flex-col sm:flex-row items-center gap-3">
+                        <input type="password" id="apiKeyInput" class="w-full p-2 rounded-md text-gray-800" placeholder="Cole sua chave da API do Gemini aqui">
+                        <button id="saveApiKeyBtn" class="bg-[#087E8B] hover:bg-[#065e68] text-white font-bold py-2 px-4 rounded-md w-full sm:w-auto transition-colors duration-300">Salvar Chave</button>
+                    </div>
+                    <p id="apiKeyStatus" class="text-xs text-gray-400 mt-2">Sua chave é salva apenas no seu navegador.</p>
+                    <a href="https://aistudio.google.com/" target="_blank" rel="noopener noreferrer" class="text-sm text-[#BFD7EA] hover:text-white mt-2 inline-block">
+                        Obtenha sua chave no Google AI Studio →
+                    </a>
+                </div>
+                <p class="mb-6 text-gray-300">Use o poder do Gemini para gerar conteúdo teológico e prático com base neste estudo.</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <button id="generateSermonBtn" class="bg-[#FF5A5F] hover:bg-[#C81225] text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300">✨ Gerar Esboço de Sermão</button>
+                    <button id="generateParableBtn" class="bg-[#087E8B] hover:bg-[#065e68] text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300">✨ Gerar Parábola Moderna</button>
+                    <button id="generateQuestionsBtn" class="bg-[#C81D25] hover:bg-[#a0171d] text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300">✨ Gerar Perguntas para Debate</button>
+                    <button id="generatePrayerBtn" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300">✨ Gerar Oração Guiada</button>
+                    <button id="generateSummaryBtn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300">✨ Gerar Resumo Teológico</button>
+                    <button id="generateActionBtn" class="bg-teal-600 hover:bg-teal-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300">✨ Gerar Pontos de Ação</button>
+                    <button id="generateExegesisBtn" class="bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300">✨ Aprofundar Análise Exegética</button>
+                    <button id="generateComparisonBtn" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300">✨ Comparar com Outra Passagem</button>
+                    <button id="generateKidsSummaryBtn" class="bg-pink-600 hover:bg-pink-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300">✨ Resumir para Crianças</button>
+                </div>
+            </div>
+
+            <!-- Conclusão e Chamada para Ação -->
+            <div class="mt-12 pt-6 border-t dark:border-gray-700">
+                <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2">Sua Vez de Falar</h3>
+                <div class="prose prose-lg dark:prose-invert max-w-none leading-relaxed">
+                    <p>A mensagem de Jesus é um convite para largar o fardo do perfeccionismo religioso e abraçar a liberdade de um relacionamento autêntico com Deus. A verdadeira transformação não acontece de fora para dentro, mas de dentro para fora.</p>
+                    <p class="font-semibold mt-4">Agora, queremos ouvir de você:</p>
+                    <p>Qual aspecto do "checklist espiritual" mais te cansa ou te pressiona? Compartilhe nos comentários abaixo. Sua história pode libertar outra pessoa!</p>
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+    <div id="geminiModal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center p-4">
+        <div class="bg-white rounded-lg shadow-2xl w-full max-w-2xl max-h-[90vh] flex flex-col">
+            <div class="flex justify-between items-center p-4 border-b">
+                <h4 id="modalTitle" class="text-2xl font-bold text-[#0B3954]">Gerando Conteúdo...</h4>
+                <button id="closeModalBtn" class="text-gray-500 hover:text-red-600 text-3xl">&times;</button>
+            </div>
+            <div id="modalContent" class="p-6 overflow-y-auto">
+                 <div class="flex justify-center items-center h-48">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function wrapLabels(label) {
+            const max = 16;
+            if (typeof label !== 'string' || label.length <= max) {
+                return label;
+            }
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + ' ' + word).trim().length > max) {
+                    lines.push(currentLine.trim());
+                    currentLine = word;
+                } else {
+                    currentLine = (currentLine + ' ' + word).trim();
+                }
+            }
+            if (currentLine) {
+                lines.push(currentLine.trim());
+            }
+            return lines;
+        }
+
+        const tooltipTitleCallback = {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        title: function(tooltipItems) {
+                            const item = tooltipItems[0];
+                            let label = item.chart.data.labels[item.dataIndex];
+                            if (Array.isArray(label)) {
+                                return label.join(' ');
+                            }
+                            return label;
+                        }
+                    }
+                },
+                legend: {
+                    labels: {
+                        color: document.body.classList.contains('dark') ? '#e5e7eb' : '#1f2937'
+                    }
+                }
+            }
+        };
+        
+        const chartFontColor = document.body.classList.contains('dark') ? '#e5e7eb' : '#1f2937';
+
+        const externalPurityCtx = document.getElementById('externalPurityChart').getContext('2d');
+        new Chart(externalPurityCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Leis Dietéticas (Kashrut)', 'Lavação Ritual das Mãos', 'Pureza por Contato', 'Tradição Oral'],
+                datasets: [{
+                    label: 'Foco da Pureza Externa',
+                    data: [40, 25, 20, 15],
+                    backgroundColor: ['#3b82f6', '#60a5fa', '#93c5fd', '#bfdbfe'],
+                    borderColor: document.body.classList.contains('dark') ? '#1f2937' : '#FFFFFF',
+                    borderWidth: 3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    ...tooltipTitleCallback.plugins,
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                           color: chartFontColor
+                        }
+                    }
+                }
+            }
+        });
+
+        const internalVicesCtx = document.getElementById('internalVicesChart').getContext('2d');
+        const viceLabels = ['Imoralidade Sexual', 'Roubo', 'Assassinato', 'Adultério', 'Cobiça', 'Maldade', 'Engano', 'Sensualidade', 'Inveja', 'Calúnia', 'Orgulho', 'Insensatez'].map(wrapLabels);
+        new Chart(internalVicesCtx, {
+            type: 'bar',
+            data: {
+                labels: viceLabels,
+                datasets: [{
+                    label: 'Vícios do Coração',
+                    data: [10, 9, 8, 9, 10, 7, 8, 9, 7, 8, 10, 6],
+                    backgroundColor: '#ef4444',
+                    borderColor: '#f87171',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                ...tooltipTitleCallback,
+                scales: {
+                      y: {
+                          ticks: { color: chartFontColor }
+                     },
+                      x: {
+                          ticks: { color: chartFontColor }
+                      }
+                }
+            }
+        });
+        
+        const modal = document.getElementById('geminiModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalContent = document.getElementById('modalContent');
+        const closeModalBtn = document.getElementById('closeModalBtn');
+        const apiKeyInput = document.getElementById('apiKeyInput');
+        const saveApiKeyBtn = document.getElementById('saveApiKeyBtn');
+        const apiKeyStatus = document.getElementById('apiKeyStatus');
+
+        const generateSermonBtn = document.getElementById('generateSermonBtn');
+        const generateParableBtn = document.getElementById('generateParableBtn');
+        const generateQuestionsBtn = document.getElementById('generateQuestionsBtn');
+        const generatePrayerBtn = document.getElementById('generatePrayerBtn');
+        const generateSummaryBtn = document.getElementById('generateSummaryBtn');
+        const generateActionBtn = document.getElementById('generateActionBtn');
+        const generateExegesisBtn = document.getElementById('generateExegesisBtn');
+        const generateComparisonBtn = document.getElementById('generateComparisonBtn');
+        const generateKidsSummaryBtn = document.getElementById('generateKidsSummaryBtn');
+
+        const loadingSpinner = `<div class="flex justify-center items-center h-48"><div class="spinner"></div></div>`;
+        
+        let apiKey = "";
+
+        function loadApiKey() {
+            const savedKey = localStorage.getItem('geminiApiKey');
+            if (savedKey) {
+                apiKey = savedKey;
+                apiKeyStatus.textContent = 'Chave da API carregada do armazenamento local.';
+                apiKeyStatus.classList.remove('text-yellow-400');
+                apiKeyStatus.classList.add('text-green-400');
+            } else {
+                apiKeyStatus.textContent = 'Nenhuma chave da API encontrada. Por favor, insira uma.';
+                apiKeyStatus.classList.remove('text-green-400');
+                apiKeyStatus.classList.add('text-yellow-400');
+            }
+        }
+
+        saveApiKeyBtn.addEventListener('click', () => {
+            const newKey = apiKeyInput.value.trim();
+            if (newKey) {
+                localStorage.setItem('geminiApiKey', newKey);
+                apiKey = newKey;
+                apiKeyStatus.textContent = 'Chave da API salva com sucesso!';
+                apiKeyStatus.className = 'text-xs text-green-400 mt-2';
+                apiKeyInput.value = '';
+            } else {
+                apiKeyStatus.textContent = 'Por favor, insira uma chave válida.';
+                apiKeyStatus.className = 'text-xs text-red-400 mt-2';
+            }
+        });
+
+        function showModal(title) {
+            modalTitle.textContent = title;
+            modalContent.innerHTML = loadingSpinner;
+            modal.classList.remove('hidden');
+        }
+
+        function hideModal() {
+            modal.classList.add('hidden');
+        }
+
+        closeModalBtn.addEventListener('click', hideModal);
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                hideModal();
+            }
+        });
+        
+        async function generateContent(prompt, maxRetries = 3) {
+             if (!apiKey) {
+                return `<div class="text-center text-red-600">
+                            <p class="font-bold text-lg">Erro: Chave da API não configurada.</p>
+                            <p>Por favor, insira sua chave da API do Gemini na seção 'Aprofunde Seu Estudo com IA' e clique em 'Salvar Chave' antes de gerar conteúdo.</p>
+                        </div>`;
+            }
+
+            const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+            let attempt = 0;
+            while (attempt < maxRetries) {
+                try {
+                    const payload = {
+                        contents: [{ parts: [{ text: prompt }] }],
+                    };
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+
+                    const result = await response.json();
+                    const candidate = result.candidates?.[0];
+
+                    if (candidate && candidate.content?.parts?.[0]?.text) {
+                        return candidate.content.parts[0].text.replace(/\n/g, '<br>');
+                    } else {
+                         throw new Error('Resposta da API inválida ou vazia.');
+                    }
+                } catch (error) {
+                    attempt++;
+                    if (attempt >= maxRetries) {
+                        return `Erro ao gerar conteúdo após ${maxRetries} tentativas. Verifique sua chave de API e a conexão.`;
+                    }
+                    const delay = Math.pow(2, attempt) * 1000;
+                    await new Promise(res => setTimeout(res, delay));
+                }
+            }
+        }
+
+        const addGenerateListener = (button, title, prompt) => {
+            button.addEventListener('click', async () => {
+                showModal(title);
+                const htmlContent = await generateContent(prompt);
+                modalContent.innerHTML = `<div class="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300">${htmlContent}</div>`;
+            });
+        };
+
+        addGenerateListener(generateSermonBtn, 'Gerando Esboço de Sermão...', "Você é um teólogo e pastor experiente. Com base nos conceitos-chave de Marcos 7:15-23 (pureza interna vs. externa, o coração como fonte da contaminação moral), gere um esboço de sermão de 3 pontos. O esboço deve ser prático, com aplicações para um público cristão contemporâneo. Formate a saída com títulos claros para Título, Introdução, Pontos Principais e Conclusão.");
+        addGenerateListener(generateParableBtn, 'Gerando Parábola Moderna...', "Escreva uma parábola moderna e curta (cerca de 200 palavras) que ilustre o ensinamento de Jesus em Marcos 7:15. A história deve contrastar uma pessoa excessivamente preocupada com aparências e regras externas com outra que entende que o verdadeiro caráter vem do coração. O cenário deve ser familiar para um público do século 21.");
+        addGenerateListener(generateQuestionsBtn, 'Gerando Perguntas para Debate...', "Aja como um facilitador de estudos bíblicos. Crie 5 perguntas abertas e instigantes para um grupo de discussão baseadas em Marcos 7:14-23. As perguntas devem explorar as implicações teológicas, éticas e práticas da passagem, focando na diferença entre pureza ritual e moralidade do coração. Formate como uma lista numerada.");
+        addGenerateListener(generatePrayerBtn, 'Gerando Oração Guiada...', "Aja como um conselheiro espiritual. Escreva uma oração pessoal e reflexiva (cerca de 150 palavras) baseada no ensinamento de Jesus em Marcos 7:14-23. A oração deve guiar o usuário a refletir sobre a condição do próprio coração, confessar as fontes internas de impureza (como as listadas no texto) e pedir a Deus por purificação e transformação interior. O tom deve ser humilde e sincero.");
+        addGenerateListener(generateSummaryBtn, 'Gerando Resumo Teológico...', "Aja como um acadêmico de teologia. Com base na passagem de Marcos 7:14-23, escreva um resumo conciso (cerca de 150 palavras) dos principais pontos teológicos. O resumo deve destacar a mudança do conceito de pureza (de ritual para moral), a centralidade do coração na ética de Jesus e como essa visão diverge da perspectiva farisaica da época. O público-alvo são estudantes de teologia.");
+        addGenerateListener(generateActionBtn, 'Gerando Pontos de Ação...', "Aja como um mentor espiritual. Baseado em Marcos 7:14-23, crie uma lista de 3 a 5 'pontos de ação' práticos e concretos para a semana. O objetivo é ajudar o leitor a focar na pureza do coração em vez de apenas na observância externa. As ações devem ser desafiadoras, mas realizáveis.");
+        addGenerateListener(generateExegesisBtn, 'Gerando Análise Exegética...', "Você é um professor de grego bíblico e exegese do Novo Testamento. Forneça uma análise exegética aprofundada (cerca de 200 palavras) sobre o termo 'καρδία' (kardia/coração) como usado por Jesus em Marcos 7:21. Explique seu pano de fundo no Antigo Testamento (ex. o conceito hebraico de 'lev/levav') e como ele representa o centro do ser humano (intelecto, vontade e emoções) no pensamento judaico do Segundo Templo, contrastando com a noção moderna e puramente emocional de 'coração'.");
+        addGenerateListener(generateComparisonBtn, 'Gerando Comparação Bíblica...', "Aja como um professor de teologia bíblica. Escreva uma breve análise comparativa (cerca de 200 palavras) entre o ensino de Jesus em Marcos 7:14-23 sobre a origem do mal no 'coração' e a lista de 'obras da carne' de Paulo em Gálatas 5:19-21. Destaque as semelhanças na ênfase na corrupção interna e como ambas as passagens definem o pecado como algo que brota de dentro do ser humano, não de fontes externas.");
+        addGenerateListener(generateKidsSummaryBtn, 'Gerando Resumo para Crianças...', "Você é um professor de escola dominical muito criativo. Explique a principal mensagem de Marcos 7:15 para crianças de 7 a 10 anos. Use uma analogia simples (como um jardim ou uma casa) para ilustrar a diferença entre 'sujeira de fora' (como lama nos sapatos) e 'sujeira de dentro' (como pensamentos ruins ou palavras maldosas). Mantenha a linguagem simples, positiva e com cerca de 150 palavras.");
+        
+        document.addEventListener('DOMContentLoaded', loadApiKey);
+
+    </script>
+</body>
+</html>
+
